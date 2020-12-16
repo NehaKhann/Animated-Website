@@ -1,0 +1,97 @@
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 5px;
+}
+
+#header h2 {
+  margin: 0px 0 10px 0;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name {
+  color: navy;
+}
+#header h3 {
+  color: gray;
+}
+
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: navy;
+  border: 2px solid navy;
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+}
+
+#header .btn-get-started:hover {
+  background: navy;
+  color: white;
+}
+
+.header-img {
+  text-align: right;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+footer p {
+  margin: 0;
+  padding: 0;
+}
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 991px) {
+  #header {
+    height: 80vh;
+    text-align: center;
+  }
+
+  #header .header-img {
+    text-align: center;
+  }
+
+  #header .header-img img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    margin-top: 20px;
+  }
+
+  #header h2 {
+    font-size: 28px;
+  }
+  #header h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  #header .header-img img {
+    width: 100%;
+  }
+}
