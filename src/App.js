@@ -7,6 +7,7 @@ import Home from "./Home";
 import Services from "./Services";
 import Footer from "./Footer";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 import "./styles.css";
 
 export default function App() {
